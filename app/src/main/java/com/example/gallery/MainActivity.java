@@ -86,10 +86,10 @@ public class MainActivity extends AppCompatActivity {
                 if (grantResults.length > 0) {
                     boolean storageAccepted = grantResults[0] == PackageManager.PERMISSION_GRANTED;
                     if (storageAccepted) {
-                        Toast.makeText(this, "Permissions Granted..", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(this, "Доступ предоставлен", Toast.LENGTH_SHORT).show();
                         getImagePath();
                     } else {
-                        Toast.makeText(this, "Permissions denined, Permissions are required to use the app..", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(this, "Доступ не предоставлен", Toast.LENGTH_SHORT).show();
                     }
                 }
                 break;
