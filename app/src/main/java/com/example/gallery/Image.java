@@ -19,7 +19,6 @@ public class Image extends AppCompatActivity {
     String[] pathsArr;
     private ImageView imageView;
     private ScaleGestureDetector scaleGestureDetector;
-    Button button;
     private float mScaleFactor = 1.0f;
 
     @Override
