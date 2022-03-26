@@ -16,7 +16,6 @@ import java.io.File;
 
 public class Image extends AppCompatActivity {
     String imgPath;
-    String[] pathsArr;
     private ImageView imageView;
     private ScaleGestureDetector scaleGestureDetector;
     private float mScaleFactor = 1.0f;
